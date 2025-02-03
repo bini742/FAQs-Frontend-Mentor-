@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(275, 66%, 90%);
+
+}
+svg {
+    display: block; 
+    width: 20px;
+    height: 20px;
+    justify-content: end;
+}
+.container {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset by 50% of the box size */
+    background-color: hsl(0, 0%, 100%); /* Slightly transparent white */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height:auto;
+    width: 440px; /* Increase width */
+    max-width: 90%; /* Ensure it’s responsive */
+    padding: 25px; /* More spacing */
+
+
+
+}
+body.container{
+align-items: center;
+justify-content: center;
+}
+
+ .background{
+     height: 100%;
+     width: 100%;
+     justify-content: right;
+ }
+ #toggleButton:hover{
+     justify-content: end;
+ }
+#toggleButton {
+    display: flex;
+    justify-content: space-between; /* Ensures space between text and icon */
+    align-items: center; /* Vertically aligns the content */
+    cursor: pointer; /* Changes cursor to pointer to indicate it's clickable */
+    padding: 0;
+}
+
+.icon {
+    margin-left: auto; /* Pushes the icon to the far right */
+}
+.hidden {
+    display: none;
+    transition: opacity 0.3s ease;
+}
+.textToToggle{
+    margin-top:15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight:400;
+    color:hsl(0, 0%, 20%);
+    padding:0;
+    text-align: left; /* Ensure the paragraph is aligned left */
+    line-height: 1.6; /* Improve readability */
+}
+h4{
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+}
+
+
+    h1 {
+        font-family: "Work Sans", sans-serif;
+        font-weight:750 !important; /* Forces the style */
+        margin-left: 9px;
+
+    }
+
+    .title{
+    display: -ms-flexbox;
+    display: flex;}
+.titlebackground{
+    display: flex;
+    display: -ms-flexbox;
+}
+.titlebackground.star{ top:50%; /* Center vertically */
+left: 50%
+
+}
+.star{
+    margin-top: 22px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.first-section{
+    text-align: left; /* Align text to the left */
+    padding: 10px 0; /* Add some spacing */
+}
+
+#toggleButton2 {display: flex;
+    justify-content: space-between; /* Ensures space between text and icon */
+    align-items: center; /* Vertically aligns the content */
+    cursor: pointer; /* Changes cursor to pointer to indicate it's clickable */
+    padding: 0;
+}
+#second{ font-family: "Work Sans", sans-serif;
+    font-weight:750 !important; /* Forces the style */
+}
+#third{ font-family: "Work Sans", sans-serif;
+font-weight:750 !important;}/* Forces the style */
+#toggleButton3{
+    display: flex;
+    justify-content: space-between; /* Ensures space between text and icon */
+    align-items: center; /* Vertically aligns the content */
+    cursor: pointer; /* Changes cursor to pointer to indicate it's clickable */
+    padding: 0;
+}
+#fourth{
+    font-family: "Work Sans", sans-serif;
+    font-weight:750 !important;
+}
+#toggleButton4{
+    display: flex;
+    justify-content: space-between; /* Ensures space between text and icon */
+    align-items: center; /* Vertically aligns the content */
+    cursor: pointer; /* Changes cursor to pointer to indicate it's clickable */
+    padding: 0;
+}
+h4:hover{
+    color:#AD28EB;
+}
+
+
+
+
+
+
